@@ -1,0 +1,20 @@
+.boxed-view {
+    align-items: center;      
+    display: flex;  
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: $boxed-view-overley-bg;
+}
+
+.boxed-view__box {
+    background-color: $boxed-view-bg;
+    padding: 2.4rem;
+    text-align: center;
+    width: 24rem;
+}
+
+.boxed-view__form {
+    display: flex;
+    flex-direction: column;
+}
